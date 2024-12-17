@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love 💕</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom right, #ff9a9e, #fad0c4, #fbc2eb);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffb6c1;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #ff69b4;
+            margin: 0 0 10px;
+            animation: bounce 2s infinite;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* زر التأثير */
+        .button {
+            display: inline-block;
+            background: #ff69b4;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="nero.jpg" alt="My Love" class="profile-img">
+        <h1>To the Love of My Life</h1>
+        <p>You are the sunshine that lights up my darkest days.</p>
+        <p>Your smile is my favorite sight, and your voice is my favorite sound.</p>
+        <p>Every moment with you feels like a beautiful dream.</p>
+        <p>I love you more than words can ever express.</p>
+        <a href="#" class="button">Always Yours ❤️</a>
+    </div>
+</body>
+</html>
